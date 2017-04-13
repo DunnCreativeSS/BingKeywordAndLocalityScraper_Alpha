@@ -1,0 +1,31 @@
+2016-01-20 12:25:59 [scrapy] INFO: Scrapy 1.0.4 started (bot: hello)
+2016-01-20 12:25:59 [scrapy] INFO: Optional features available: ssl, http11
+2016-01-20 12:25:59 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'hello.spiders', 'FEED_URI': 'file:///home/jarett/hello/hello/items/hello/one/0b6bc032bfb311e5bff6000c2900f886.jl', 'CONCURRENT_REQUESTS': 1, 'SPIDER_MODULES': ['hello.spiders'], 'BOT_NAME': 'hello', 'USER_AGENT': 'Mozilla/5.0 (iPad; U; CPU OS 3_2_1 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Mobile/7B405', 'LOG_FILE': 'logs/hello/one/0b6bc032bfb311e5bff6000c2900f886.log', 'DOWNLOAD_DELAY': 0.75}
+2016-01-20 12:25:59 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-01-20 12:25:59 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-01-20 12:25:59 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-01-20 12:25:59 [scrapy] INFO: Enabled item pipelines: 
+2016-01-20 12:25:59 [scrapy] INFO: Spider opened
+2016-01-20 12:25:59 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-01-20 12:25:59 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-01-20 12:26:01 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-01-20 12:26:01 [scrapy] INFO: Closing spider (shutdown)
+2016-01-20 12:26:03 [scrapy] DEBUG: Crawled (200) <GET http://www.getitout.com.ng/> (referer: None)
+2016-01-20 12:26:04 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 295,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 37622,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 1, 20, 20, 26, 4, 48497),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 8,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 1, 20, 20, 25, 59, 558728)}
+2016-01-20 12:26:04 [scrapy] INFO: Spider closed (shutdown)

@@ -1,0 +1,47 @@
+2016-01-20 12:20:46 [scrapy] INFO: Scrapy 1.0.4 started (bot: hello)
+2016-01-20 12:20:46 [scrapy] INFO: Optional features available: ssl, http11
+2016-01-20 12:20:46 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'hello.spiders', 'FEED_URI': 'file:///home/jarett/hello/hello/items/hello/one/070de13cbfb311e5bff6000c2900f886.jl', 'CONCURRENT_REQUESTS': 1, 'SPIDER_MODULES': ['hello.spiders'], 'BOT_NAME': 'hello', 'USER_AGENT': 'Mozilla/5.0 (iPad; U; CPU OS 3_2_1 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Mobile/7B405', 'LOG_FILE': 'logs/hello/one/070de13cbfb311e5bff6000c2900f886.log', 'DOWNLOAD_DELAY': 0.75}
+2016-01-20 12:20:46 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-01-20 12:20:46 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-01-20 12:20:46 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-01-20 12:20:46 [scrapy] INFO: Enabled item pipelines: 
+2016-01-20 12:20:46 [scrapy] INFO: Spider opened
+2016-01-20 12:20:46 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-01-20 12:20:46 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6026
+2016-01-20 12:20:47 [scrapy] DEBUG: Crawled (200) <GET http://www.burtsbees.com/> (referer: None)
+2016-01-20 12:20:55 [scrapy] DEBUG: Crawled (200) <GET https://organicskincare.com/> (referer: None)
+2016-01-20 12:20:56 [scrapy] DEBUG: Crawled (200) <GET http://www.biggreensmile.com/> (referer: None)
+2016-01-20 12:21:11 [scrapy] DEBUG: Crawled (200) <GET http://www.biotique.com/> (referer: None)
+2016-01-20 12:21:12 [scrapy] DEBUG: Crawled (200) <GET http://www.clinique.com/> (referer: None)
+2016-01-20 12:21:13 [scrapy] DEBUG: Crawled (200) <GET http://www.purespadirect.com/> (referer: None)
+2016-01-20 12:21:13 [scrapy] ERROR: Spider error processing <GET http://www.purespadirect.com/> (referer: None)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 577, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "build/bdist.linux-x86_64/egg/hello/spiders/one.py", line 41, in parse
+    f.write(response.url + "," + str(response.body.count('<font') )+ "," + str(response.xpath(s1).extract_first()) + "," + str(DmozSpider.dicty[response.url]) + "," + DmozSpider.search[response.url] + "\n")
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xa0' in position 48: ordinal not in range(128)
+2016-01-20 12:21:14 [scrapy] DEBUG: Crawled (200) <GET http://www.trademarkia.com/> (referer: None)
+2016-01-20 12:21:16 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-01-20 12:21:16 [scrapy] INFO: Closing spider (shutdown)
+2016-01-20 12:21:18 [scrapy] DEBUG: Crawled (200) <GET http://www.juicebeauty.com/> (referer: None)
+2016-01-20 12:21:18 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2356,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 249197,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 8,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 1, 20, 20, 21, 18, 824099),
+ 'log_count/DEBUG': 9,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'response_received_count': 8,
+ 'scheduler/dequeued': 8,
+ 'scheduler/dequeued/memory': 8,
+ 'scheduler/enqueued': 8,
+ 'scheduler/enqueued/memory': 8,
+ 'spider_exceptions/UnicodeEncodeError': 1,
+ 'start_time': datetime.datetime(2016, 1, 20, 20, 20, 46, 816040)}
+2016-01-20 12:21:18 [scrapy] INFO: Spider closed (shutdown)

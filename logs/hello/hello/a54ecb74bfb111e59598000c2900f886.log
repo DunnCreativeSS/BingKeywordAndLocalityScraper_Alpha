@@ -1,0 +1,65 @@
+2016-01-20 12:09:01 [scrapy] INFO: Scrapy 1.0.4 started (bot: hello)
+2016-01-20 12:09:01 [scrapy] INFO: Optional features available: ssl, http11
+2016-01-20 12:09:01 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'hello.spiders', 'FEED_URI': 'file:///home/jarett/hello/items/hello/hello/a54ecb74bfb111e59598000c2900f886.jl', 'CONCURRENT_REQUESTS': 1, 'SPIDER_MODULES': ['hello.spiders'], 'BOT_NAME': 'hello', 'USER_AGENT': 'Mozilla/5.0 (iPad; U; CPU OS 3_2_1 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Mobile/7B405', 'LOG_FILE': 'logs/hello/hello/a54ecb74bfb111e59598000c2900f886.log', 'DOWNLOAD_DELAY': 0.75}
+2016-01-20 12:09:01 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-01-20 12:09:01 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-01-20 12:09:01 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-01-20 12:09:01 [scrapy] INFO: Enabled item pipelines: 
+2016-01-20 12:09:01 [scrapy] INFO: Spider opened
+2016-01-20 12:09:01 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-01-20 12:09:01 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2016-01-20 12:09:02 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Bath+&+Body+online&first=1&count=10> (referer: None)
+2016-01-20 12:09:02 [py.warnings] WARNING: hello/spiders/hello.py:106: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg(response)
+
+2016-01-20 12:09:02 [scrapy] INFO: <addinfourl at 140503969149368 whose fp = <socket._fileobject object at 0x7fc9aad4ed50>>
+2016-01-20 12:09:02 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Bath+&+Body+online&first=11&count=10> (referer: None)
+2016-01-20 12:09:02 [scrapy] INFO: <addinfourl at 140503969308256 whose fp = <socket._fileobject object at 0x7fc9aad4ee50>>
+2016-01-20 12:09:03 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Bath+&+Body+online&first=21&count=10> (referer: None)
+2016-01-20 12:09:03 [scrapy] INFO: <addinfourl at 140503969150592 whose fp = <socket._fileobject object at 0x7fc9aad4eed0>>
+2016-01-20 12:09:04 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Bath+&+Body+online&first=31&count=10> (referer: None)
+2016-01-20 12:09:04 [scrapy] INFO: <addinfourl at 140503982064344 whose fp = <socket._fileobject object at 0x7fc9aad4ef50>>
+2016-01-20 12:09:05 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Bath+&+Body+online&first=41&count=10> (referer: None)
+2016-01-20 12:09:05 [scrapy] INFO: <addinfourl at 140503969152968 whose fp = <socket._fileobject object at 0x7fc9aad4edd0>>
+2016-01-20 12:09:05 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Bath+&+Body+online&first=51&count=10> (referer: None)
+2016-01-20 12:09:05 [scrapy] INFO: <addinfourl at 140503968853312 whose fp = <socket._fileobject object at 0x7fc9a12b0350>>
+2016-01-20 12:09:06 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Bath+&+Body+online&first=61&count=10> (referer: None)
+2016-01-20 12:09:06 [scrapy] INFO: <addinfourl at 140503969149296 whose fp = <socket._fileobject object at 0x7fc9a12b0150>>
+2016-01-20 12:09:07 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Bath+&+Body+online&first=71&count=10> (referer: None)
+2016-01-20 12:09:07 [scrapy] INFO: <addinfourl at 140503968878032 whose fp = <socket._fileobject object at 0x7fc9a12b0050>>
+2016-01-20 12:09:08 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Bath+&+Body+online&first=81&count=10> (referer: None)
+2016-01-20 12:09:08 [scrapy] INFO: <addinfourl at 140503969183648 whose fp = <socket._fileobject object at 0x7fc9aad4eed0>>
+2016-01-20 12:09:09 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Bath+&+Body+online&first=91&count=10> (referer: None)
+2016-01-20 12:09:09 [scrapy] INFO: <addinfourl at 140503982066792 whose fp = <socket._fileobject object at 0x7fc9aad4ef50>>
+2016-01-20 12:09:10 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Beauty+Tools+&+Accessories+online&first=1&count=10> (referer: None)
+2016-01-20 12:09:10 [scrapy] INFO: <addinfourl at 140503969185016 whose fp = <socket._fileobject object at 0x7fc9aad4ee50>>
+2016-01-20 12:09:11 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Beauty+Tools+&+Accessories+online&first=11&count=10> (referer: None)
+2016-01-20 12:09:11 [scrapy] INFO: <addinfourl at 140503969151960 whose fp = <socket._fileobject object at 0x7fc9aad4eb50>>
+2016-01-20 12:09:12 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Beauty+Tools+&+Accessories+online&first=21&count=10> (referer: None)
+2016-01-20 12:09:12 [scrapy] INFO: <addinfourl at 140503969183648 whose fp = <socket._fileobject object at 0x7fc9aad4ebd0>>
+2016-01-20 12:09:13 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Beauty+Tools+&+Accessories+online&first=31&count=10> (referer: None)
+2016-01-20 12:09:13 [scrapy] INFO: <addinfourl at 140503969150448 whose fp = <socket._fileobject object at 0x7fc9aad4edd0>>
+2016-01-20 12:09:14 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Beauty+Tools+&+Accessories+online&first=41&count=10> (referer: None)
+2016-01-20 12:09:14 [scrapy] INFO: <addinfourl at 140503969182208 whose fp = <socket._fileobject object at 0x7fc9a12b07d0>>
+2016-01-20 12:09:15 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Beauty+Tools+&+Accessories+online&first=51&count=10> (referer: None)
+2016-01-20 12:09:15 [scrapy] INFO: <addinfourl at 140503982067008 whose fp = <socket._fileobject object at 0x7fc9a12b0350>>
+2016-01-20 12:09:15 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Beauty+Tools+&+Accessories+online&first=61&count=10> (referer: None)
+2016-01-20 12:09:16 [scrapy] INFO: <addinfourl at 140503968901600 whose fp = <socket._fileobject object at 0x7fc9a12b02d0>>
+2016-01-20 12:09:16 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Beauty+Tools+&+Accessories+online&first=71&count=10> (referer: None)
+2016-01-20 12:09:16 [scrapy] INFO: <addinfourl at 140504131344864 whose fp = <socket._fileobject object at 0x7fc9a12b0150>>
+2016-01-20 12:09:17 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Beauty+Tools+&+Accessories+online&first=81&count=10> (referer: None)
+2016-01-20 12:09:17 [scrapy] INFO: <addinfourl at 140503968943712 whose fp = <socket._fileobject object at 0x7fc9a12b04d0>>
+2016-01-20 12:09:17 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Beauty+Tools+&+Accessories+online&first=91&count=10> (referer: None)
+2016-01-20 12:09:18 [scrapy] INFO: <addinfourl at 140503969307608 whose fp = <socket._fileobject object at 0x7fc9a12b02d0>>
+2016-01-20 12:09:18 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Body,+Face,+and+Hand+Lotions,+Antiaging+Creams,+Cleansers,+Massage+Oils,+Baby+Oils,+Exfoliators,+Toners,+Sun+Tan+Products+and+More+online&first=1&count=10> (referer: None)
+2016-01-20 12:09:18 [scrapy] INFO: <addinfourl at 140503968941192 whose fp = <socket._fileobject object at 0x7fc9aad4ebd0>>
+2016-01-20 12:09:19 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Body,+Face,+and+Hand+Lotions,+Antiaging+Creams,+Cleansers,+Massage+Oils,+Baby+Oils,+Exfoliators,+Toners,+Sun+Tan+Products+and+More+online&first=11&count=10> (referer: None)
+2016-01-20 12:09:19 [scrapy] INFO: <addinfourl at 140503969335776 whose fp = <socket._fileobject object at 0x7fc9aad4ee50>>
+2016-01-20 12:09:20 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Body,+Face,+and+Hand+Lotions,+Antiaging+Creams,+Cleansers,+Massage+Oils,+Baby+Oils,+Exfoliators,+Toners,+Sun+Tan+Products+and+More+online&first=21&count=10> (referer: None)
+2016-01-20 12:09:21 [scrapy] INFO: <addinfourl at 140503968901456 whose fp = <socket._fileobject object at 0x7fc9aad4ef50>>
+2016-01-20 12:09:21 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Body,+Face,+and+Hand+Lotions,+Antiaging+Creams,+Cleansers,+Massage+Oils,+Baby+Oils,+Exfoliators,+Toners,+Sun+Tan+Products+and+More+online&first=31&count=10> (referer: None)
+2016-01-20 12:09:21 [scrapy] INFO: <addinfourl at 140503969182064 whose fp = <socket._fileobject object at 0x7fc9aad4eed0>>
+2016-01-20 12:09:22 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Body,+Face,+and+Hand+Lotions,+Antiaging+Creams,+Cleansers,+Massage+Oils,+Baby+Oils,+Exfoliators,+Toners,+Sun+Tan+Products+and+More+online&first=41&count=10> (referer: None)
+2016-01-20 12:09:22 [scrapy] INFO: <addinfourl at 140503969321544 whose fp = <socket._fileobject object at 0x7fc9aad4ecd0>>
+2016-01-20 12:09:23 [scrapy] DEBUG: Crawled (200) <GET https://www.bing.com/search?q=buy+Body,+Face,+and+Hand+Lotions,+Antiaging+Creams,+Cleansers,+Massage+Oils,+Baby+Oils,+Exfoliators,+Toners,+Sun+Tan+Products+and+More+online&first=51&count=10> (referer: None)
+2016-01-20 12:09:23 [scrapy] INFO: <addinfourl at 140503968876376 whose fp = <socket._fileobject object at 0x7fc9aad4eb50>>

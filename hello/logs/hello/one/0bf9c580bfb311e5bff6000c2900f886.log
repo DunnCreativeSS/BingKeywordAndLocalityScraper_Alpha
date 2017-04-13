@@ -1,0 +1,52 @@
+2016-01-20 12:26:54 [scrapy] INFO: Scrapy 1.0.4 started (bot: hello)
+2016-01-20 12:26:54 [scrapy] INFO: Optional features available: ssl, http11
+2016-01-20 12:26:54 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'hello.spiders', 'FEED_URI': 'file:///home/jarett/hello/hello/items/hello/one/0bf9c580bfb311e5bff6000c2900f886.jl', 'CONCURRENT_REQUESTS': 1, 'SPIDER_MODULES': ['hello.spiders'], 'BOT_NAME': 'hello', 'USER_AGENT': 'Mozilla/5.0 (iPad; U; CPU OS 3_2_1 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Mobile/7B405', 'LOG_FILE': 'logs/hello/one/0bf9c580bfb311e5bff6000c2900f886.log', 'DOWNLOAD_DELAY': 0.75}
+2016-01-20 12:26:54 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-01-20 12:26:54 [twisted] ERROR: Unhandled error in Deferred:
+2016-01-20 12:26:54 [twisted] ERROR: Unhandled error in Deferred:
+2016-01-20 12:26:54 [twisted] ERROR: Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/cmdline.py", line 150, in _run_command
+    cmd.run(args, opts)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 57, in run
+    self.crawler_process.crawl(spname, **opts.spargs)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/crawler.py", line 153, in crawl
+    d = crawler.crawl(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1237, in unwindGenerator
+    return _inlineCallbacks(None, gen, Deferred())
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1099, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/crawler.py", line 70, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/crawler.py", line 80, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spiders/__init__.py", line 50, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "build/bdist.linux-x86_64/egg/hello/spiders/one.py", line 14, in __init__
+    
+exceptions.IOError: [Errno 2] No such file or directory: '/home/jarett/hello/oneinput-test-36.csv'
+
+2016-01-20 12:26:54 [twisted] ERROR: Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/cmdline.py", line 150, in _run_command
+    cmd.run(args, opts)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 57, in run
+    self.crawler_process.crawl(spname, **opts.spargs)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/crawler.py", line 153, in crawl
+    d = crawler.crawl(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1237, in unwindGenerator
+    return _inlineCallbacks(None, gen, Deferred())
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1099, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/crawler.py", line 70, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/crawler.py", line 80, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spiders/__init__.py", line 50, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "build/bdist.linux-x86_64/egg/hello/spiders/one.py", line 14, in __init__
+    
+exceptions.IOError: [Errno 2] No such file or directory: '/home/jarett/hello/oneinput-test-36.csv'
+

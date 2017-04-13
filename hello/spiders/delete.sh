@@ -1,0 +1,25 @@
+#!/bin/sh
+curl http://localhost:6800/cancel.json -d project=hello -d job=2a6be5f6c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=29e87248c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=295ce930c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=28b4b77ec05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=280d0786c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=27263266c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=27668190c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=26853a96c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=26117b56c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=2589811ac05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=24f43a42c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=24891f64c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=23e916b8c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=2382af5ec05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=231173f2c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=227f04b8c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=21f0bf96c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=2146e872c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=20e25826c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=20701392c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=1fe9a8fcc05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=1f71f74ec05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=1ef111b0c05411e5b099000c2900f886
+curl http://localhost:6800/cancel.json -d project=hello -d job=1e507f02c05411e5b099000c2900f886
